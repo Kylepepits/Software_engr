@@ -30,123 +30,123 @@ List<ImageDetails> _images = [
     details:
         'Cor. V. Rama Ave. - Citilink Terminal - CCMC - Cebu South Bus Terminal - E.mall - P.del Rosario St. - University of San Carlos - Junquera St.',
   ),
-  ImageDetails(
-    jeepImage: 'images/2.jpg',
-    imagePath: 'images/4.jpg',
-    price: '\$20.00',
-    arrivalTime: 'Jamie Bryan',
-    title: 'New York',
-    details:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
-  ),
-  ImageDetails(
-    jeepImage: 'images/2.jpg',
-    imagePath: 'images/5.jpg',
-    price: '\$20.00',
-    arrivalTime: 'Jamie Bryan',
-    title: 'New York',
-    details:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
-  ),
-  ImageDetails(
-    jeepImage: 'images/2.jpg',
-    imagePath: 'images/6.jpg',
-    price: '\$20.00',
-    arrivalTime: 'Jamie Bryan',
-    title: 'New York',
-    details:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
-  ),
-  ImageDetails(
-    jeepImage: 'images/2.jpg',
-    imagePath: 'images/7.jpg',
-    price: '\$20.00',
-    arrivalTime: 'Jamie Bryan',
-    title: 'New York',
-    details:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
-  ),
-  ImageDetails(
-    jeepImage: 'images/2.jpg',
-    imagePath: 'images/8.jpg',
-    price: '\$20.00',
-    arrivalTime: 'Jamie Bryan',
-    title: 'New York',
-    details:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
-  ),
-  ImageDetails(
-    jeepImage: 'images/2.jpg',
-    imagePath: 'images/9.jpg',
-    price: '\$20.00',
-    arrivalTime: 'Jamie Bryan',
-    title: 'New York',
-    details:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
-  ),
-  ImageDetails(
-    jeepImage: 'images/2.jpg',
-    imagePath: 'images/10.jpg',
-    price: '\$20.00',
-    arrivalTime: 'Jamie Bryan',
-    title: 'New York',
-    details:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
-  ),
-  ImageDetails(
-    jeepImage: 'images/2.jpg',
-    imagePath: 'images/11.jpg',
-    price: '\$20.00',
-    arrivalTime: 'Jamie Bryan',
-    title: 'New York',
-    details:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
-  ),
-  ImageDetails(
-    jeepImage: 'images/2.jpg',
-    imagePath: 'images/12.jpg',
-    price: '\$20.00',
-    arrivalTime: 'Jamie Bryan',
-    title: 'New York',
-    details:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
-  ),
-  ImageDetails(
-    jeepImage: 'images/2.jpg',
-    imagePath: 'images/13.jpg',
-    price: '\$20.00',
-    arrivalTime: 'Jamie Bryan',
-    title: 'New York',
-    details:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
-  ),
-  ImageDetails(
-    jeepImage: 'images/2.jpg',
-    imagePath: 'images/14.jpg',
-    price: '\$20.00',
-    arrivalTime: 'Matthew',
-    title: 'Cone Ice Cream',
-    details:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
-  ),
-  ImageDetails(
-    jeepImage: 'images/2.jpg',
-    imagePath: 'images/15.jpg',
-    price: '\$25.00',
-    arrivalTime: 'Martin Sawyer',
-    title: 'Pink Ice Cream',
-    details:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
-  ),
-  ImageDetails(
-    jeepImage: 'images/2.jpg',
-    imagePath: 'images/16.jpg',
-    price: '\$15.00',
-    arrivalTime: 'John Doe',
-    title: 'Strawberry Ice Cream',
-    details:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
-  ),
+//   ImageDetails(
+//     jeepImage: 'images/2.jpg',
+//     imagePath: 'images/4.jpg',
+//     price: '\$20.00',
+//     arrivalTime: 'Jamie Bryan',
+//     title: 'New York',
+//     details:
+//         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
+//   ),
+//   ImageDetails(
+//     jeepImage: 'images/2.jpg',
+//     imagePath: 'images/5.jpg',
+//     price: '\$20.00',
+//     arrivalTime: 'Jamie Bryan',
+//     title: 'New York',
+//     details:
+//         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
+//   ),
+//   ImageDetails(
+//     jeepImage: 'images/2.jpg',
+//     imagePath: 'images/6.jpg',
+//     price: '\$20.00',
+//     arrivalTime: 'Jamie Bryan',
+//     title: 'New York',
+//     details:
+//         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
+//   ),
+//   ImageDetails(
+//     jeepImage: 'images/2.jpg',
+//     imagePath: 'images/7.jpg',
+//     price: '\$20.00',
+//     arrivalTime: 'Jamie Bryan',
+//     title: 'New York',
+//     details:
+//         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
+//   ),
+//   ImageDetails(
+//     jeepImage: 'images/2.jpg',
+//     imagePath: 'images/8.jpg',
+//     price: '\$20.00',
+//     arrivalTime: 'Jamie Bryan',
+//     title: 'New York',
+//     details:
+//         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
+//   ),
+//   ImageDetails(
+//     jeepImage: 'images/2.jpg',
+//     imagePath: 'images/9.jpg',
+//     price: '\$20.00',
+//     arrivalTime: 'Jamie Bryan',
+//     title: 'New York',
+//     details:
+//         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
+//   ),
+//   ImageDetails(
+//     jeepImage: 'images/2.jpg',
+//     imagePath: 'images/10.jpg',
+//     price: '\$20.00',
+//     arrivalTime: 'Jamie Bryan',
+//     title: 'New York',
+//     details:
+//         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
+//   ),
+//   ImageDetails(
+//     jeepImage: 'images/2.jpg',
+//     imagePath: 'images/11.jpg',
+//     price: '\$20.00',
+//     arrivalTime: 'Jamie Bryan',
+//     title: 'New York',
+//     details:
+//         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
+//   ),
+//   ImageDetails(
+//     jeepImage: 'images/2.jpg',
+//     imagePath: 'images/12.jpg',
+//     price: '\$20.00',
+//     arrivalTime: 'Jamie Bryan',
+//     title: 'New York',
+//     details:
+//         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
+//   ),
+//   ImageDetails(
+//     jeepImage: 'images/2.jpg',
+//     imagePath: 'images/13.jpg',
+//     price: '\$20.00',
+//     arrivalTime: 'Jamie Bryan',
+//     title: 'New York',
+//     details:
+//         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
+//   ),
+//   ImageDetails(
+//     jeepImage: 'images/2.jpg',
+//     imagePath: 'images/14.jpg',
+//     price: '\$20.00',
+//     arrivalTime: 'Matthew',
+//     title: 'Cone Ice Cream',
+//     details:
+//         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
+//   ),
+//   ImageDetails(
+//     jeepImage: 'images/2.jpg',
+//     imagePath: 'images/15.jpg',
+//     price: '\$25.00',
+//     arrivalTime: 'Martin Sawyer',
+//     title: 'Pink Ice Cream',
+//     details:
+//         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
+//   ),
+//   ImageDetails(
+//     jeepImage: 'images/2.jpg',
+//     imagePath: 'images/16.jpg',
+//     price: '\$15.00',
+//     arrivalTime: 'John Doe',
+//     title: 'Strawberry Ice Cream',
+//     details:
+//         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil error aspernatur, sequi inventore eligendi vitae dolorem animi suscipit. Nobis, cumque.',
+//   ),
 ];
 
 class Jeepney extends StatelessWidget {
@@ -154,6 +154,11 @@ class Jeepney extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        title: const Text(
+          'Jeepneys',
+          style: TextStyle(
+              fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black),
+        ),
         leading: BackButton(
           onPressed: (() {
             Navigator.push(
@@ -172,7 +177,7 @@ class Jeepney extends StatelessWidget {
               height: 40,
             ),
             Text(
-              'Jeepneys',
+              'Here are the available Jeepneys',
               style: TextStyle(
                 fontSize: 25,
                 fontWeight: FontWeight.w600,
@@ -190,7 +195,7 @@ class Jeepney extends StatelessWidget {
                   vertical: 30,
                 ),
                 decoration: BoxDecoration(
-                  color: Colors.white,
+                  color: Colors.amber[400],
                   borderRadius: BorderRadius.only(
                     topLeft: Radius.circular(30),
                     topRight: Radius.circular(30),

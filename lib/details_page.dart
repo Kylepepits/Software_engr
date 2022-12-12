@@ -23,6 +23,11 @@ class DetailsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        title: const Text(
+          'Jeepney Details',
+          style: TextStyle(
+              fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black),
+        ),
         leading: BackButton(
           onPressed: () {
             Navigator.of(context)
@@ -50,7 +55,7 @@ class DetailsPage extends StatelessWidget {
               ),
             ),
             Container(
-              color: Colors.yellowAccent[200],
+              color: Colors.amber[200],
               height: 260,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -95,43 +100,45 @@ class DetailsPage extends StatelessWidget {
                       ],
                     ),
                   ),
-                  // Row(
-                  //   children: <Widget>[
-                  //     Expanded(
-                  //       child: TextButton(
-                  //         onPressed: () {
-                  //           Navigator.pop(context);
-                  //         },
-                  //         padding: EdgeInsets.symmetric(vertical: 15),
-                  //         color: Colors.lightBlueAccent,
-                  //         child: Text(
-                  //           'Back',
-                  //           style: TextStyle(
-                  //             color: Colors.white,
-                  //           ),
-                  //         ),
-                  //       ),
-                  //     ),
-                  //     SizedBox(
-                  //       width: 15,
-                  //     ),
-                  //     Expanded(
-                  //       child: TextButton(
-                  //         child: Text(
-                  //           'Buy',
-                  //           style: TextStyle(
-                  //             color: Colors.white,
-                  //           ),
-                  //         ),
-                  //         // ignore: prefer_const_constructors
-                  //         style: ButtonStyle(
-                  //           backgroundColor: Colors.lightBlue,
-                  //         ),
-                  //         onPressed: () {},
-                  //       ),
-                  //     ),
-                  //   ],
-                  // )
+                  Row(
+                    children: <Widget>[
+                      Expanded(
+                        child: TextButton(
+                          onPressed: () {
+                            Navigator.pop(context);
+                          },
+                          style: TextButton.styleFrom(
+                            padding: EdgeInsets.symmetric(vertical: 15),
+                            backgroundColor: Colors.lightBlueAccent,
+                          ),
+                          child: Text(
+                            'Back',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 15,
+                      ),
+                      Expanded(
+                        child: TextButton(
+                          style: ButtonStyle(
+                              backgroundColor: MaterialStateProperty.all(
+                                  Colors.lightBlueAccent)),
+                          child: Text(
+                            'Buy',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          ),
+                          // ignore: prefer_const_constructors
+                          onPressed: () {},
+                        ),
+                      ),
+                    ],
+                  )
                 ],
               ),
             ),

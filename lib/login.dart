@@ -15,7 +15,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey,
+      backgroundColor: Colors.amber[600],
       body: SafeArea(
         child: Center(
           child: Column(
@@ -181,11 +181,20 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.amber[400],
       appBar: AppBar(
         title: const Text(
-          '',
+          'Destinations',
+          style: TextStyle(
+              fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black),
         ),
-        backgroundColor: Colors.grey,
+        leading: BackButton(
+          onPressed: () {
+            Navigator.of(context)
+                .push(MaterialPageRoute(builder: (context) => LoginPage()));
+          },
+        ),
+        backgroundColor: Colors.amber[600],
       ),
       body: Padding(
         padding: const EdgeInsets.all(10),
@@ -197,7 +206,13 @@ class _HomePageState extends State<HomePage> {
             TextField(
               onChanged: (value) => _runFilter(value),
               decoration: const InputDecoration(
-                  labelText: 'Where to?', suffixIcon: Icon(Icons.search)),
+                  labelText: 'Where to?',
+                  suffixIcon: Icon(Icons.search),
+                  labelStyle: TextStyle(
+                      color: Colors.black,
+                      fontSize: 22,
+                      fontStyle: FontStyle.normal,
+                      decoration: TextDecoration.underline)),
             ),
             const SizedBox(
               height: 20,
@@ -207,18 +222,18 @@ class _HomePageState extends State<HomePage> {
                   ? ListView.builder(
                       itemCount: _foundUsers.length,
                       itemBuilder: (context, index) => Card(
-                        color: Colors.grey,
+                        color: Colors.amber[50],
                         elevation: 4,
                         margin: const EdgeInsets.symmetric(vertical: 10),
                         child: ListTile(
                           title: Text(_foundUsers[index]['place'],
                               style: TextStyle(
-                                color: Colors.white,
+                                color: Colors.black,
                                 fontWeight: FontWeight.bold,
                               )),
                           subtitle: Text(
                               '${_foundUsers[index]["details"].toString()}',
-                              style: TextStyle(color: Colors.grey[50])),
+                              style: TextStyle(color: Colors.black)),
                           onTap: () {
                             Navigator.of(context).push(MaterialPageRoute(
                                 builder: (context) => Jeepney()));
